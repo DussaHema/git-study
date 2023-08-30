@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage("working inside maven pod") {
       steps {
-        a=20
+        script{
+        a = 20
         if(a == 20){
           println "value of a is ${a}"
         }
@@ -13,4 +14,5 @@ pipeline {
       }
     }  
   }
+ }
 }
