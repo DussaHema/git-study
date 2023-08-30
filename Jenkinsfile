@@ -16,8 +16,8 @@ pipeline {
             println "my BUILD_NUMBER is ${BUILD_NUMBER}"
             println "my JOB_NAME is ${JOB_NAME}"
             //accessing value from parameter
-            println "my selected env is ${params.env}"
-            println "my selected version is ${params.version}"
+            println "my selected env is ${params.ENV}"
+            println "my selected version is ${params.VERSION}"
           }
         }
       }
