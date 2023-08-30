@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("Welcome to world") {
         steps {
-          script{
+          script {
             Println "Hi team welcome to devops"
           }
         }
