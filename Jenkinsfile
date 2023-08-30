@@ -4,7 +4,7 @@ pipeline {
     stage("Welcome to world") {
         steps {
           script {
-            Println "Hi team welcome to devops"
+            println "Hi team welcome to devops"
           }
         }
       }
