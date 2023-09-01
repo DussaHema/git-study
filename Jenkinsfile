@@ -1,12 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage("working inside maven pod") {
+    stage("working with conditions") {
       steps {
         script {
          a = input message: 'Please enter a value ', parameters: [string(defaultValue: '0', name: 'val1', trim: true)]
-        
-         if(a.tointeger() == 20){
+         if(a.toInteger() == 20){
           println "value of a is ${a}"
          }
          else {
