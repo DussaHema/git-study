@@ -1,5 +1,5 @@
-def myfn1(){
-  println "value of a is ${a}, value of b is ${b}"
+def myfn1(a,b){
+  println "value of a is ${a} , value of b is ${b}"
 }
 
 pipeline {
