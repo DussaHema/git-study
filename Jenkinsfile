@@ -6,7 +6,7 @@ pipeline {
         script {
          //working with while loops
          a = 1
-         while(1<=10){
+         while(a <= 10){
           println "value of a is ${a}"
           a = a + 1
         }
