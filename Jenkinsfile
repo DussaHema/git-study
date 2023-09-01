@@ -1,5 +1,5 @@
 def myfn1(){
-  println "welcome to function in jenkins"
+  println "value of a is ${a}, value of b is ${b}"
 }
 
 pipeline {
@@ -8,7 +8,7 @@ pipeline {
     stage("working with conditions") {
       steps {
         script {
-          myfn1()
+         myfn1(10,20)
        }
      }  
    }
